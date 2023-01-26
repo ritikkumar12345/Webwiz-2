@@ -1,0 +1,125 @@
+body{
+    background-color: whitesmoke;
+
+}
+h1 {
+    color:black;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline rgb(89, 97, 73)
+}
+.container{
+    margin: 0 34px;
+
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav-logo{
+    width: 240;
+}
+.header_nav-items{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.header_nav-item a{
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header_nav-item a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.hero{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main_text{
+    width: 700px;
+
+}
+
+.main_image img{
+    width:500px;
+    height: 500px;
+    
+    
+}
+.main_text-heading{
+    font-size: 45px;
+    color:gray;
+}
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:64px ;
+    padding-bottom: 64px;
+
+
+}
+.showcase_cards1{
+    color: gray;
+     font-weight: 500; 
+    margin-top: 7px;
+}
+
+.showcase_cards2{
+    color: gray;
+    font-weight: 500;
+    margin-top: 7px;
+}
+.showcase_cards3{
+    color: gray;
+    font-weight: 500;
+    margin-top: 7px;
+}
+.showcase_cards3 img{
+    width: 200px;
+    height: 200px;
+}
+.showcase_cards2 img{
+    width: 200px;
+    height: 200px;
+}
+.showcase_cards img{
+    width: 200px;
+    height: 200px;
+}
+.apple{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+.mango1{
+    width: 700px;
+
+}
+.apple2{
+    width: 500px;
+    height: 500px;
+}
+.mango1{
+    font-size: 45px;
+    color: gray;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 16px;
+
+}
+.footer_text{
+    text-align: center;
+}
